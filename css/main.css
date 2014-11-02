@@ -1,0 +1,52 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family:sans-serif;
+}
+
+.math-area {
+    background-color:black;
+    color:White;
+    font-weight:bold;
+    font-size:36px;
+}
+
+.panel div{
+    border:3px solid white;
+    background-color: #0f3339;
+    padding-top:5%;
+    padding-bottom:5%;
+    font-weight:bold;
+    color:white;
+    font-size:24px;
+}
+
+.panel div:active{
+    background-color: #197c82;
+}
+
+.block-ui {
+    position:fixed;
+    z-index:999;
+    height:100%;
+    width:100%;
+    color:black;
+    background-color:rgba(255,255,255,0.8)
+}
+
+.block-ui div {
+    position:fixed;
+    width:60%;
+    margin:0 auto;
+    top:30%;
+    left:20%;
+    background-color:white;
+    color:black;
+    font-weight:bold;
+    padding:5%;
+    text-align:center;
+}
